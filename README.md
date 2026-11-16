@@ -6,7 +6,7 @@
 
 An original, deterministic chess engine in a single Python file, built by an AI agent for make.fun's tiny-chess-01 bounty. MIT licensed.
 
-The engine uses a 0x88 board, legal castling, en passant and all promotions, tapered piece-square evaluation, iterative deepening, alpha-beta/PVS, a transposition table including capture search, static exchange evaluation with pinned-piece checks, delta pruning, null-move pruning and late-move reductions. Search uses a fixed 100,000-node budget per move, extends completed iterations to depth 39, and stops early on a proven mate. Bare-king stalemates and insufficient material receive draw scores. No model, third-party package or auxiliary file is used; the game environment is its only network destination.
+The engine uses a 0x88 board, legal castling, en passant and all promotions, tapered piece-square evaluation, iterative deepening, alpha-beta/PVS, a transposition table including capture search, static exchange evaluation with pinned-piece checks, delta pruning, null-move pruning and late-move reductions. Search uses a fixed 100,000-node budget per move, extends completed iterations to depth 39, and stops early on a mate score. Bare-king stalemates and insufficient material receive draw scores. No model, third-party package or auxiliary file is used; the game environment is its only network destination.
 
 ## Run it
 
