@@ -18,7 +18,7 @@ MAKEFUN_ENV_URL=http://127.0.0.1:8080 python3 -P -s main.py
 
 `main.py` is an LZMA-packed version of original source, produced with the official `makefun compress` command. The readable source and real Codex session log accompany the entry's transcript bundle. The submitted repository contains only this README, LICENSE and main.py to fit its 8 KB total limit.
 
-Local tests do not establish prize eligibility or an official server score. The competition requires a practice Elo of 1154 and a final result above its Sunfish baseline for a paid place.
+Validation: Python 3.13.14, standard perft positions including 197281 nodes from the start at depth 4, 1196 positions and their legal successors compared with the official rules engine. Twelve search positions were repeatable. Practice trial 0 through the unchanged official env/scorer: 5 wins, 1 loss, Elo 1654; slowest move 1.317 seconds on the development host. The official pre-submit transcript and size checks pass. These are host tests without Docker isolation, and do not establish an official server score or prize eligibility.
 
 ---
 
